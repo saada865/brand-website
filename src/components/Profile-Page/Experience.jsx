@@ -8,7 +8,7 @@ const Experience = () => {
           Experience
         </div>
         <p className=" font-medium text-4xl ">Where I've worked</p>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-32">
+        <div className="mx-2 grid grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-72 mt-32">
           {/* <div className=" "> */}
           <div className=" ">
             <p className="mb-4 text-neutral-400 text-sm">2023 - Present</p>
@@ -37,8 +37,8 @@ const Experience = () => {
               Freelance
             </div>
           </div>
-        </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20">
+
+          {/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20"> */}
           <div className="">
             <p className="mb-4 text-neutral-400 text-sm">2022</p>
             <div className="mb-4 text-xl font-medium">R/GA</div>
@@ -67,8 +67,8 @@ const Experience = () => {
               Freelance
             </div>
           </div>
-        </div>
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20">
+          {/* </div> */}
+          {/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20"> */}
           <div className="">
             <p className="mb-4 text-neutral-400 text-sm">2020</p>
             <div className="mb-4 text-xl font-medium">UI Centric</div>
@@ -95,9 +95,9 @@ const Experience = () => {
               Co-Founder
             </div>
           </div>
-        </div>
+          {/* </div> */}
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20">
+          {/* <div className="grid grid-cols-2 lg:grid-cols-3 gap-72 mt-20"> */}
           <div className="">
             <p className="mb-4 text-neutral-400 text-sm">2012</p>
             <div className="mb-4 text-xl font-medium">Agency TK</div>
@@ -124,6 +124,7 @@ const Experience = () => {
               Permanent
             </div>
           </div>
+          {/* </div> */}
         </div>
       </div>
     </div>

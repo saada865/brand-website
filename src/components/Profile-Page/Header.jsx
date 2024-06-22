@@ -7,14 +7,14 @@ const Header = () => {
     <div className="">
       <div className=" mt-80 flex flex-col items-center text-center">
         <h2 className=" text-7xl font-medium">Hey I'm Oli</h2>
-        <div className=" flex justify-evenly  mt-32">
+        <div className=" mx-4 flex justify-evenly mt-32">
           <img
-            className=" hidden xl:block h-[500px] w-[650px] rounded-2xl mr-4"
+            className="hidden xl:block h-[500px] w-[650px] rounded-2xl mr-4"
             src={img5}
             alt="img"
           />
           <img
-            className="h-[500px] w-[650px] rounded-2xl"
+            className="lg:h-[500px] lg:w-[650px] rounded-2xl"
             src={img2}
             alt="img"
           />

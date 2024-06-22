@@ -9,17 +9,21 @@ import img6 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT**
 const Images = () => {
   return (
     <div className="flex flex-col my-32">
-      <div className="flex justify-evenly">
-        <img className=" h-[500px] w-[650px] rounded-2xl " src={img4} alt="" />
+      <div className="mx-4 flex justify-evenly">
+        <img
+          className=" lg:h-[500px] lg:w-[650px] rounded-2xl "
+          src={img4}
+          alt=""
+        />
         <img
           className="hidden xl:block h-[500px] w-[650px] rounded-2xl "
           src={img6}
           alt=""
         />
       </div>
-      <div className="flex justify-evenly">
+      <div className="mx-4 flex justify-evenly">
         <img
-          className="h-[500px] w-[650px] rounded-2xl my-4"
+          className=" lg:h-[500px] lg:w-[650px] rounded-2xl my-4"
           src={img4}
           alt=""
         />
@@ -29,17 +33,21 @@ const Images = () => {
           alt=""
         />
       </div>
-      <div className="flex justify-evenly">
-        <img className="h-[500px] w-[650px] rounded-2xl" src={img4} alt="" />
+      <div className=" mx-4 flex justify-evenly">
+        <img
+          className=" lg:h-[500px] lg:w-[650px] rounded-2xl"
+          src={img4}
+          alt=""
+        />
         <img
           className=" hidden xl:block h-[500px] w-[650px] rounded-2xl"
           src={img6}
           alt=""
         />
       </div>
-      <div className="flex justify-evenly">
+      <div className="mx-4 flex justify-evenly">
         <img
-          className="h-[500px] w-[650px] rounded-2xl my-4"
+          className=" lg:h-[500px] lg:w-[650px] rounded-2xl my-4"
           src={img4}
           alt=""
         />
