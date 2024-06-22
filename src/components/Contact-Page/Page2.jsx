@@ -5,7 +5,7 @@ import Footer from "../Footer";
 
 const Page2 = () => {
   return (
-    <div className=" flex flex-col min-h-screen">
+    <div className=" flex flex-col min-h-screen ">
       <Contact />
       <div className="flex-grow"></div>
       <Footer />
