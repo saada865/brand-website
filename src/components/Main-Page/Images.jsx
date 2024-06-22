@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-adria-masi-461420600-20808045.jpg";
+// import img1 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-adria-masi-461420600-20808045.jpg";
 import img2 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-efrem-efre-2786187-25758512.jpg";
 import img3 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-esrannuur-129682465-18627914.jpg";
 import img4 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-fahribagirov-17400783.jpg";
