@@ -1,6 +1,6 @@
 import React from "react";
-import img5 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-stephen-noulton-421904730-15511422.jpg";
-import img2 from "/Users/saadahmadmalik/Documents/Coding/Web Development/REACT****/frontend-practice-2/my-porject/src/assets/pexels-efrem-efre-2786187-25758512.jpg";
+import img5 from "../assets/pexels-stephen-noulton-421904730-15511422.jpg";
+import img2 from "../assets/pexels-efrem-efre-2786187-25758512.jpg";
 
 const Header = () => {
   return (
