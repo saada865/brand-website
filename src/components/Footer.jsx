@@ -1,9 +1,9 @@
 import React from "react";
-import "boxicons";
+// import "boxicons";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between m-5">
+    <div className="flex justify-between m-8">
       <div className=" text-sm">
         <span>
           <box-icon color="black" name="registered" type="solid"></box-icon>

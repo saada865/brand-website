@@ -1,33 +1,33 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className=" my-20 flex flex-col  items-center text-center justify-start">
-      <div
-        className=" flex bg-[#e8e5e480]
+    <header className="mt-8 mb-48 flex flex-col  items-center text-center justify-start">
+      <nav
+        className=" flex flex-row bg-[#e8e5e480]
        items-center text-center justify-evenly rounded-3xl
      h-12 w-80 text-sm mb-20 fixed backdrop-blur-md"
       >
-        <ul>
+        <ul className=" flex">
           <li>
-            {/* <NavLink exact to="/"> */}
-            Home
-            {/* </NavLink> */}
+            <Link to="/">
+              <p className="font-light">Home</p>
+            </Link>
           </li>
           <li>
-            {/* <NavLink exact to="/Contact"> */}
-            Contact
-            {/* </NavLink> */}
+            <Link to="/about">
+              <p className="font-light px-10">About</p>
+            </Link>
           </li>
           <li>
-            {/* <NavLink exact to="/Profile"> */}
-            Profile
-            {/* </NavLink> */}
+            <Link to="/contact">
+              <p className="font-light ">Contact</p>
+            </Link>
           </li>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

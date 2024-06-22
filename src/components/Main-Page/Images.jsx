@@ -11,7 +11,11 @@ const Images = () => {
     <div className="flex flex-col my-32">
       <div className="flex justify-evenly">
         <img className=" h-[500px] w-[650px] rounded-2xl " src={img4} alt="" />
-        <img className="h-[500px] w-[650px] rounded-2xl " src={img6} alt="" />
+        <img
+          className="hidden xl:block h-[500px] w-[650px] rounded-2xl "
+          src={img6}
+          alt=""
+        />
       </div>
       <div className="flex justify-evenly">
         <img
@@ -20,14 +24,18 @@ const Images = () => {
           alt=""
         />
         <img
-          className="h-[500px] w-[650px] rounded-2xl my-4"
+          className=" hidden xl:block h-[500px] w-[650px] rounded-2xl my-4"
           src={img6}
           alt=""
         />
       </div>
       <div className="flex justify-evenly">
         <img className="h-[500px] w-[650px] rounded-2xl" src={img4} alt="" />
-        <img className="h-[500px] w-[650px] rounded-2xl" src={img6} alt="" />
+        <img
+          className=" hidden xl:block h-[500px] w-[650px] rounded-2xl"
+          src={img6}
+          alt=""
+        />
       </div>
       <div className="flex justify-evenly">
         <img
@@ -36,14 +44,10 @@ const Images = () => {
           alt=""
         />
         <img
-          className="h-[500px] w-[650px] rounded-2xl my-4"
+          className=" hidden xl:block h-[500px] w-[650px] rounded-2xl my-4"
           src={img6}
           alt=""
         />
-      </div>
-      <div className=" mt-32 text-center">
-        <h2 className="text-3xl">Let's work togethor.</h2>
-        <h2 className="text-3xl text-neutral-500">Get in touch.</h2>
       </div>
     </div>
   );
